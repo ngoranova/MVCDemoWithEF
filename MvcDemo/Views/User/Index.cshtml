@@ -1,0 +1,48 @@
+﻿
+@using MvcDemo.Helpers
+@model MvcDemo.Common.Models.UsersModel
+
+@{
+    ViewBag.Title = "Users Registed for Course " + Model.Course.CoursePortalName;
+}
+
+<hr />
+
+@if (Model != null && Model.Users != null && Model.Users.Count() > 0)
+{
+
+    <table cellpadding="0" cellspacing="0" class="display cell-border" id="datatable-users">
+        <thead>
+            <tr>
+                <th class="all" title="Client name">User Id</th>
+                <th class="all" title="Client name">First Name</th>
+                <th class="all" title="Client name">Last Name</th>
+                <th class="all" title="Client name">Registration Date</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var user in Model.Users)
+            {
+            <tr class="odd gradeX">
+                <td align="center">@user.Id</td>
+                <td align="center">@user.FirstName</td>
+                <td align="center">@user.LastName</td>
+                <td align="center">@user.RegistrationTime</td>
+            </tr>
+            }
+        </tbody>
+
+    </table>
+
+
+}
+else
+{
+
+    <div class="row col-md-offset-5">
+        <p> <b> No information to display</b></p>
+    </div>
+
+}
+

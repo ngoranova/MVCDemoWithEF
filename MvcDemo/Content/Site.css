@@ -1,0 +1,199 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+
+table.dataTable thead th {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    background-color: #31668c !important;
+    color: white !important;
+}
+
+    table.dataTable thead th:first-child {
+        border-left: 1px solid #ccc;
+    }
+
+table.dataTable thead th,
+table.dataTable thead td {
+    padding: 10px 18px;
+    border-bottom: 1px solid #ccc;
+}
+
+table.dataTable.no-footer {
+    border-bottom: 1px solid #ccc;
+}
+
+/*@media all and (min-width: 50px)   {  #captionText  { font-size:1.3em; min-height: 3vh; } }
+@media all and (min-width: 100px)  {  #captionText  { font-size:1.3em; min-height: 3vh; } }
+@media all and (min-width: 200px)  {  #captionText  { font-size:1.3em; min-height: 3vh; } }
+@media all and (min-width: 300px)  {  #captionText  { font-size:1.3em; min-height: 3vh; } }
+@media all and (min-width: 400px)  {  #captionText  { font-size:1.3em; min-height: 3vh; } }
+@media all and (min-width: 500px)  {  #captionText  { font-size:1.3em; min-height: 3vh; } }
+@media all and (min-width: 600px)  {  #captionText  { font-size:1.3em; min-height: 3vh; } }
+@media all and (min-width: 700px)  {  #captionText  { font-size:1.4em; min-height: 3vh; } }
+@media all and (min-width: 800px)  {  #captionText  { font-size:1.4em; min-height: 3vh; } }
+@media all and (min-width: 900px)  {  #captionText  { font-size:1.4em; min-height: 3vh;  } }
+@media all and (min-width: 1000px) {  #captionText  { font-size:1.4em; min-height: 3vh; } }
+@media all and (min-width: 1100px) {  #captionText  { font-size:1.4em; min-height: 3vh; } }
+@media all and (min-width: 1200px) {  #captionText  { font-size:1.4em; min-height: 3vh; } }
+@media all and (min-width: 1300px) {  #captionText  { font-size:1.4em; min-height: 3vh; } }
+@media all and (min-width: 1400px) {  #captionText  { font-size:1.5em; min-height: 3vh; } }
+@media all and (min-width: 1500px) {  #captionText  { font-size:1.5em; min-height: 3vh; } }
+@media all and (min-width: 1600px) {  #captionText  { font-size:1.6em; min-height: 3vh; } }
+@media all and (min-width: 1700px) {  #captionText  { font-size:1.6em; min-height: 3vh;  } }*/
+
+@media all and (min-width: 50px) {
+    #captionText {
+        font-size: 1.3em;
+        min-height: 22px;
+    }
+}
+
+@media all and (min-width: 100px) {
+    #captionText {
+        font-size: 1.3em;
+        min-height: 22px;
+    }
+}
+
+@media all and (min-width: 200px) {
+    #captionText {
+        font-size: 1.3em;
+        min-height: 22px;
+    }
+}
+
+@media all and (min-width: 300px) {
+    #captionText {
+        font-size: 1.3em;
+        min-height: 22px;
+    }
+}
+
+@media all and (min-width: 400px) {
+    #captionText {
+        font-size: 1.3em;
+        min-height: 22px;
+    }
+}
+
+@media all and (min-width: 500px) {
+    #captionText {
+        font-size: 1.3em;
+        min-height: 22px;
+    }
+}
+
+@media all and (min-width: 600px) {
+    #captionText {
+        font-size: 1.3em;
+        min-height: 22px;
+    }
+}
+
+@media all and (min-width: 700px) {
+    #captionText {
+        font-size: 1.4em;
+        min-height: 22px;
+    }
+}
+
+@media all and (min-width: 800px) {
+    #captionText {
+        font-size: 1.4em;
+        min-height: 22px;
+    }
+}
+
+@media all and (min-width: 900px) {
+    #captionText {
+        font-size: 1.4em;
+        min-height: 22px;
+    }
+}
+
+@media all and (min-width: 1000px) {
+    #captionText {
+        font-size: 1.4em;
+        min-height: 22px;
+    }
+}
+
+@media all and (min-width: 1100px) {
+    #captionText {
+        font-size: 1.4em;
+        min-height: 22px;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    #captionText {
+        font-size: 1.4em;
+        min-height: 22px;
+    }
+}
+
+@media all and (min-width: 1300px) {
+    #captionText {
+        font-size: 1.4em;
+        min-height: 22px;
+    }
+}
+
+@media all and (min-width: 1400px) {
+    #captionText {
+        font-size: 1.5em;
+        min-height: 22px;
+    }
+}
+
+@media all and (min-width: 1500px) {
+    #captionText {
+        font-size: 1.5em;
+        min-height: 22px;
+    }
+}
+
+@media all and (min-width: 1600px) {
+    #captionText {
+        font-size: 1.6em;
+        min-height: 22px;
+    }
+}
+
+@media all and (min-width: 1700px) {
+    #captionText {
+        font-size: 1.6em;
+        min-height: 22px;
+    }
+}
+
+@media only screen and (min-width: 50px) {
+    #headerImage {
+        min-height: 20px;
+    }
+}
+

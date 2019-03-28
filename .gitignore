@@ -3,3 +3,11 @@
 ################################################################################
 
 /.vs/slnx.sqlite
+/.vs/slnx.sqlite-journal
+/MvcDemo/obj
+/MvcDemo.Common/obj
+/MvcDemo.DataAccess/obj
+/MvcDemo.Service/obj
+/MvcDemo.Tests/obj
+/packages
+/TestConsoleApp/obj
